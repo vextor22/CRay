@@ -1,1 +1,0 @@
-image.c:17:12: warning: ‘count’ defined but not used [-Wunused-variable]

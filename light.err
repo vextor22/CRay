@@ -1,4 +1,0 @@
-light.cpp: In member function ‘virtual void light_t::illuminate(model_t*, vec_t*, object_t*, drgb_t*)’:
-light.cpp:71:9: warning: unused variable ‘emiss’ [-Wunused-variable]
-light.cpp:73:9: warning: unused variable ‘workdist’ [-Wunused-variable]
-light.cpp:73:20: warning: ‘dist’ is used uninitialized in this function [-Wuninitialized]
