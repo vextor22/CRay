@@ -1,0 +1,2 @@
+tplane.cpp: In member function ‘int tplane_t::select()’:
+tplane.cpp:64:6: warning: unused variable ‘numInt’ [-Wunused-variable]

@@ -1,0 +1,107 @@
+camera      cam1        
+pixeldim      640  480
+worlddim      8.0  6.0
+viewpoint     4.0  3.0  8.0
+
+material     white 
+ambient        1.0   1.0   1.0 
+diffuse        3.0   3.0   3.0 
+specular       1.0 
+
+shininess      0.0 
+
+transparency   0.0 
+
+
+material     green 
+ambient        0.0   0.0   0.0 
+diffuse        1.0   3.0   1.0 
+specular       1.0 
+
+shininess    200.0 
+
+transparency   0.0 
+
+
+material     red 
+ambient        0.0   0.0   0.0 
+diffuse        3.0   1.0   1.0 
+specular       1.0 
+
+shininess    200.0 
+
+transparency   0.0 
+
+
+material     blue 
+ambient        0.0   0.0   0.0 
+diffuse        1.0   1.0   4.0 
+specular       1.0 
+
+shininess    200.0 
+
+transparency   0.0 
+
+
+material     mirror 
+ambient        0.0   0.0   0.0 
+diffuse        0.0   0.0   0.0 
+specular       1.0 
+
+shininess      0.0 
+
+transparency   0.0 
+
+sphere       left 
+material     green 
+center       1.5  3.0 -2.0
+radius       1.0
+
+sphere       top 
+material     blue 
+center       4.0  4.5 -2.0
+radius       1.0
+
+sphere       right 
+material     red 
+center       6.5  3.0 -2.0
+radius       1.0
+
+plane        floor 
+material     mirror 
+normal       0.0  1.0  0.0
+point        0.0  0.0  0.0
+
+plane        ceiling 
+material     mirror 
+normal       0.0 -1.0  0.0
+point        0.0  6.0  0.0
+
+plane        left 
+material     white 
+normal       0.9  0.0  0.5
+point        0.0  0.0  0.0
+xdir         1.0  0.0  0.0
+Dimensions   8.0   6.0
+rotation matrix 
+  0.5  0.0 -0.9
+ -0.0  1.0  0.0
+  0.9  0.0  0.5
+
+plane        right 
+material     white 
+normal      -0.9  0.0  0.5
+point        4.0  0.0 -6.9
+xdir         1.0  0.0  0.0
+Dimensions   8.0   6.0
+rotation matrix 
+  0.5  0.0  0.9
+  0.0  1.0 -0.0
+ -0.9  0.0  0.5
+
+Light        center 
+Emissivity     3.0   3.0   3.0 
+Location       4.0   3.0   0.0 
+Light        top 
+Emissivity     1.0   1.0   1.0 
+Location       4.0   5.5  -3.0 
